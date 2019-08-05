@@ -1,0 +1,31 @@
+
+.prim-full-viewport {
+  width: 100vw;
+  height: 100vh;
+}
+
+.prim-hz {
+  display: flex;
+  flex-direction: row;
+}
+
+.prim-vr {
+  display: flex;
+  flex-direction: column;
+}
+
+.prim-slice-1 {
+  flex: 1;
+}
+
+.prim-slice-2 {
+  flex: 2;
+}
+
+.prim-slice-3 {
+  flex: 3;
+}
+
+.prim-slice-4 {
+  flex: 4;
+}
