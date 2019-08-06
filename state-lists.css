@@ -1,0 +1,45 @@
+/*
+    Combine :
+    
+    >> hz-state-list or vr-state-list
+    >> monoline-fields ou multiline-fields
+*/
+.hz-state-list .fieldset {
+  display: flex;
+  flex-direction: row;
+}
+
+.hz-state-list .field {
+  flex: 1;
+}
+
+.vr-state-list .fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.field .label::first-letter {
+  text-transform: uppercase;
+}
+
+.field .value {
+  font-weight: bold;
+}
+
+.monoline-fields .field {
+  display: flex;
+  flex-direction: row;
+}
+
+.monoline-fields .label {
+  min-width: 110px;
+}
+
+.multiline-fields .field {
+  display: flex;
+  flex-direction: column;
+}
+
+.multiline-fields .label {
+  margin-bottom: 5px;
+}
