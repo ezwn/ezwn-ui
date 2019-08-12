@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+input, textarea {
+    background-color: rgba(210, 210, 255, 0.12);
+    border-color:  rgba(210, 210, 255, 0.5);
+    color: white;
+  }
+  
