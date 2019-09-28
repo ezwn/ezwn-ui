@@ -1,0 +1,12 @@
+.feature-area h2 {
+  color: black;
+  background-color: rgb(206, 206, 248);
+  margin: 0px;
+  padding: 8px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.feature-area-content {
+  overflow-y: scroll;
+}
