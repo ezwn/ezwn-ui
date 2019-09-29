@@ -1,12 +1,17 @@
+:root {
+  --bg-color: black;
+  --text-color: white;
+}
+
 body {
   margin: 0;
-  background-color: black;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 input, textarea {
     background-color: rgba(210, 210, 255, 0.12);
     border-color:  rgba(210, 210, 255, 0.5);
-    color: white;
+    color:  var(--text-color);
   }
   
