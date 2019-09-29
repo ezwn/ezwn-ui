@@ -1,0 +1,15 @@
+.card {
+  margin: 6px;
+  border-radius: 3px;
+  border: solid 1px white;
+  list-style-type: none;
+  width: 30vw;
+}
+
+.card .content {
+  padding: 6px;
+}
+
+.square-button {
+  font-size: 50px;
+}
