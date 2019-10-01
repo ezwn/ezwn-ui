@@ -18,6 +18,10 @@
   flex-direction: column;
 }
 
+.vr-state-list .field:not(:first-child) {
+  margin-top: 10px;
+}
+
 .field .label::first-letter {
   text-transform: uppercase;
 }
@@ -33,6 +37,15 @@
 
 .monoline-fields .label {
   min-width: 110px;
+}
+
+.monoline-fields .value {
+  flex: 1;
+  display: flex;
+}
+
+.monoline-fields .value .input {
+  flex: 1;
 }
 
 .multiline-fields .field {

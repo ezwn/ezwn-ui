@@ -12,8 +12,8 @@ const ModalOutputCmp = props => {
   return ReactDOM.createPortal(
     <ModalContext.Consumer>
       {showModal => (
-        <div className={`modal-background`} onClick={() => showModal(null)}>
-          <div className={`modal`} onClick={e => e.stopPropagation()}>
+        <div className="modal-background" onClick={() => showModal(null)}>
+          <div className="modal prim-vr" onClick={e => e.stopPropagation()}>
             {content}
           </div>
         </div>

@@ -7,9 +7,13 @@
 
 .modal {
   background-color: var(--bg-color);
-  height: 80vh;
-  width: 80vw;
+  height: 75vh;
+  width: 75vw;
   margin: auto;
   margin-top: 10vh;
-  padding: 25px;
+  padding: 10px;
+}
+
+.modal-part {
+  padding: 10px;
 }
