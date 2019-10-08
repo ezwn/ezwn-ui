@@ -9,9 +9,9 @@ body {
   color: var(--text-color);
 }
 
-input, textarea, select {
-    background-color: rgba(210, 210, 255, 0.12);
-    border-color:  rgba(210, 210, 255, 0.5);
+input, textarea, select, select option {
+    background-color: rgba(25, 25, 30);
+    border-color:  rgba(105, 105, 127);
     color:  var(--text-color);
     padding: 5px;
   }
