@@ -30,13 +30,23 @@
   font-weight: bold;
 }
 
+.multiline-fields .field {
+  display: flex;
+  flex-direction: column;
+}
+
+.multiline-fields .label {
+  margin-bottom: 5px;
+}
+
 .monoline-fields .field {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .monoline-fields .label {
-  min-width: 110px;
+  min-width: 120px;
 }
 
 .monoline-fields .value {
@@ -48,11 +58,17 @@
   flex: 1;
 }
 
-.multiline-fields .field {
-  display: flex;
-  flex-direction: column;
+.fieldset .field {
+  padding: 7px;
 }
 
-.multiline-fields .label {
-  margin-bottom: 5px;
+.fieldset textarea {
+  box-sizing: border-box;
+  height: 15vh;
+  width: 100%;
+}
+
+.fieldset input:not([type=checkbox]) {
+  box-sizing: border-box;
+  width: 100%;
 }
