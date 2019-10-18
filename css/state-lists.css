@@ -19,7 +19,7 @@
 }
 
 .vr-state-list .field:not(:first-child) {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .field .label::first-letter {
