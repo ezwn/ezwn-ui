@@ -16,3 +16,13 @@ input, textarea, select, select option {
     padding: 5px;
   }
   
+button {
+  background-color: rgba(25, 25, 30);
+  border-color:  rgba(105, 105, 127);
+  color:  var(--text-color);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
