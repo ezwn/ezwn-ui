@@ -1,5 +1,8 @@
-import FeatureAreaCmp from './react/FeatureArea.cmp';
-import { ModalProviderCmp } from './react/ModalOutput.cmp';
-import modalContext from './react/Modal.context';
-import EzwnUi from './react/EzwnUi.cmp';
-export default { EzwnUi, FeatureAreaCmp, ModalProviderCmp, modalContext };
+import FeatureAreaCmp from './components/FeatureArea.cmp';
+export { FeatureAreaCmp };
+import { ModalProviderCmp } from './components/modal/ModalOutput.cmp';
+export { ModalProviderCmp };
+import modalContext from './components/modal/Modal.context';
+export { modalContext };
+import EzwnUi from './components/EzwnUi.cmp';
+export { EzwnUi };
